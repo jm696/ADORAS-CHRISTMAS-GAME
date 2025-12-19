@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ADORAS Christmas Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <div>
+        <div id="title">Cargando…</div>
+        <div id="progress" class="muted"></div>
+      </div>
+      <div class="header-actions">
+        <a class="btn" href="editor.html" target="_blank" rel="noopener">Editor de hotspots</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="boardWrap">
+      <img id="board" alt="Tablero" />
+      <canvas id="overlay"></canvas>
+    </div>
+
+    <aside id="targets">
+      <div class="aside-title">Personajes a encontrar</div>
+      <div id="targetsList"></div>
+      <div class="aside-footer muted">
+        Haz clic en la ilustración para marcar un hallazgo.
+      </div>
+    </aside>
+  </main>
+
+  <div id="toast" hidden></div>
+
+  <script src="game.js"></script>
+</body>
+</html>
