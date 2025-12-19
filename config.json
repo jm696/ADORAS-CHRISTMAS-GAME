@@ -1,0 +1,16 @@
+{
+  "title": "ADORAS Christmas Game — Encuentra los arquitectos",
+  "boardImage": "assets/board.png",
+  "targets": [
+    { "id": "jane_jacobs", "label": "Jane Jacobs", "x": null, "y": null, "r": 2.2 },
+    { "id": "zaha_hadid", "label": "Zaha Hadid", "x": null, "y": null, "r": 2.2 },
+    { "id": "lacaton_vassal", "label": "Anne Lacaton & J.-P. Vassal", "x": null, "y": null, "r": 2.2 },
+    { "id": "bjarke_ingels", "label": "Bjarke Ingels", "x": null, "y": null, "r": 2.2 },
+    { "id": "javier_senosiain", "label": "Javier Senosiain", "x": null, "y": null, "r": 2.2 },
+    { "id": "luis_barragan", "label": "Luis Barragán", "x": null, "y": null, "r": 2.2 },
+    { "id": "le_corbusier", "label": "Le Corbusier", "x": null, "y": null, "r": 2.2 },
+    { "id": "portzamparc", "label": "C. de Portzamparc", "x": null, "y": null, "r": 2.2 },
+    { "id": "rem_koolhaas", "label": "Rem Koolhaas", "x": null, "y": null, "r": 2.2 },
+    { "id": "fernando_higueras", "label": "Fernando Higueras", "x": null, "y": null, "r": 2.2 }
+  ]
+}
